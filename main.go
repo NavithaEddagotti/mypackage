@@ -1,11 +1,11 @@
 package ownpack
 
-func Hello() {
-	"log".Printf("Hello from mypackage!")
+func Hello(message string) {
+	"log".Printf("%v", message)
 }
-func Say() {
-	"log".Printf("Say")
+func Say(message string) {
+	"log".Printf("%v", message)
 }
-func Sayhi() {
-	"log".Printf("SayHai")
+func Sayhi(message string) {
+	"log".Printf("%v", message)
 }
